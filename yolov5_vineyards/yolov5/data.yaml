@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Canopy', 'Humans', 'Tractor', 'Trunks']
+
+roboflow:
+  workspace: objectdetection-1qr9x
+  project: vineyards_yolov5
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/objectdetection-1qr9x/vineyards_yolov5/dataset/4
